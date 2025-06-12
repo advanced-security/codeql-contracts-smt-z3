@@ -1,0 +1,8 @@
+| detectnulls.cpp:15:5:16:13 | requires a | Within contract $@ is possibly null | detectnulls.cpp:16:12:16:12 | a | this variable |
+| detectnulls.cpp:18:5:19:22 | requires ... && ... | Within contract $@ is possibly null | detectnulls.cpp:19:12:19:12 | a | this variable |
+| detectnulls.cpp:18:5:19:22 | requires ... && ... | Within contract $@ is possibly null | detectnulls.cpp:19:17:19:17 | b | this variable |
+| detectnulls.cpp:29:5:30:13 | requires a | Within contract $@ is possibly null | detectnulls.cpp:30:12:30:12 | a | this variable |
+| detectnulls.cpp:41:5:42:15 | requires a | Within contract $@ is possibly null | detectnulls.cpp:42:12:42:12 | b | this variable |
+| detectnulls.cpp:41:5:42:15 | requires a | Within contract $@ is possibly null | detectnulls.cpp:42:14:42:14 | a | this variable |
+| detectnulls.cpp:44:5:45:23 | requires ... != ... | Within contract $@ is possibly null | detectnulls.cpp:45:12:45:12 | b | this variable |
+| detectnulls.cpp:44:5:45:23 | requires ... != ... | Within contract $@ is possibly null | detectnulls.cpp:45:14:45:14 | a | this variable |

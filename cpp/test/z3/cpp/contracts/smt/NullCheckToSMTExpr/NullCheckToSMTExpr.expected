@@ -1,0 +1,13 @@
+| nullchecktosmtexpr.cpp:15:5:16:13 | requires a | nullchecktosmtexpr.cpp:16:12:16:12 | a | (not (=  _referenceType__a MaybeNull)) |
+| nullchecktosmtexpr.cpp:18:5:19:22 | requires ... && ... | nullchecktosmtexpr.cpp:19:12:19:21 | ... && ... | (and (not (=  _referenceType__a MaybeNull)) (>  _valueType__b  0 ) ) |
+| nullchecktosmtexpr.cpp:24:5:25:21 | requires ... != ... | nullchecktosmtexpr.cpp:25:12:25:21 | ... != ... | (not (=  _referenceType__a  MaybeNull)) |
+| nullchecktosmtexpr.cpp:27:5:28:21 | requires ... == ... | nullchecktosmtexpr.cpp:28:12:28:21 | ... == ... | (=  _referenceType__a  MaybeNull) |
+| nullchecktosmtexpr.cpp:30:5:31:14 | requires ! ... | nullchecktosmtexpr.cpp:31:12:31:13 | ! ... | (not (not (=  _referenceType__a MaybeNull))) |
+| nullchecktosmtexpr.cpp:35:5:36:13 | requires a | nullchecktosmtexpr.cpp:36:12:36:12 | a | (not (=  _referenceType__a MaybeNull)) |
+| nullchecktosmtexpr.cpp:40:5:41:21 | requires ... != ... | nullchecktosmtexpr.cpp:41:12:41:21 | ... != ... | (not (=  _referenceType__a  MaybeNull)) |
+| nullchecktosmtexpr.cpp:43:5:44:21 | requires ... == ... | nullchecktosmtexpr.cpp:44:12:44:21 | ... == ... | (=  _referenceType__a  MaybeNull) |
+| nullchecktosmtexpr.cpp:46:5:47:14 | requires ! ... | nullchecktosmtexpr.cpp:47:12:47:13 | ! ... | (not (not (=  _referenceType__a MaybeNull))) |
+| nullchecktosmtexpr.cpp:53:5:54:15 | requires a | nullchecktosmtexpr.cpp:54:14:54:14 | a | (not (=  _referenceType__b_qlcontracts_a MaybeNull)) |
+| nullchecktosmtexpr.cpp:56:5:57:23 | requires ... != ... | nullchecktosmtexpr.cpp:57:12:57:23 | ... != ... | (not (=  _referenceType__b_qlcontracts_a  MaybeNull)) |
+| nullchecktosmtexpr.cpp:59:5:60:23 | requires ... == ... | nullchecktosmtexpr.cpp:60:12:60:23 | ... == ... | (=  _referenceType__b_qlcontracts_a  MaybeNull) |
+| nullchecktosmtexpr.cpp:62:5:63:16 | requires ! ... | nullchecktosmtexpr.cpp:63:12:63:15 | ! ... | (not (not (=  _referenceType__b_qlcontracts_a MaybeNull))) |

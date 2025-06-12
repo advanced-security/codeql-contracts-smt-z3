@@ -1,0 +1,58 @@
+WARNING: unused predicate 'getBounds2' (implicitranges.ql:13,8-18)
+WARNING: unused predicate 'testBoundaryAnalyzedFunctionCall' (implicitranges.ql:173,11-43)
+WARNING: unused predicate 'testContractPairs' (implicitranges.ql:177,11-28)
+WARNING: unused predicate 'testContractParameter' (implicitranges.ql:175,11-32)
+WARNING: unused predicate 'testGetAValueExpression' (implicitranges.ql:97,24-47)
+WARNING: unused predicate 'testNotRefersTo' (implicitranges.ql:136,11-26)
+WARNING: unused predicate 'testRefersTo' (implicitranges.ql:128,11-23)
+WARNING: unused predicate 'testStripPrefix' (implicitranges.ql:144,11-26)
+WARNING: unused predicate 'testStripPrefix2' (implicitranges.ql:148,11-27)
+WARNING: unused predicate 'testSubstituteRoot' (implicitranges.ql:58,8-26)
+WARNING: unused predicate 'testTerminalVariableAccessId' (implicitranges.ql:158,11-39)
+WARNING: unused predicate 'testTerminalVariableAccessIdExpr' (implicitranges.ql:160,11-43)
+WARNING: unused predicate 'testTerminalVariableAccessType' (implicitranges.ql:168,6-36)
+WARNING: unused predicate 'testTerminalVariableAccessTypes' (implicitranges.ql:164,10-41)
+WARNING: unused predicate 'testValueExpressions' (implicitranges.ql:87,11-31)
+WARNING: unused predicate 'z3SortForQlType2' (implicitranges.ql:181,10-26)
+WARNING: unused predicate 'z3SortForQlType3' (implicitranges.ql:192,10-26)
+#select
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_a 109)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_a 109)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_a 109)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_a 109)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_b_qlcontracts_a 102)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_b_qlcontracts_a 102)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_b_qlcontracts_a 102)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_b_qlcontracts_a 102)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_d 1011)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_d 1011)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_d 1011)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_d -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_d 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_d 1011)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__a_qlcontracts_d 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__a_qlcontracts_d -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_a 103)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_a 103)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_a 103)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_a 103)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_b_qlcontracts_a 104)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_b_qlcontracts_a 104)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_b_qlcontracts_a 104)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_b_qlcontracts_a 104)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__b_qlcontracts_b_qlcontracts_a 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b_qlcontracts_b_qlcontracts_a -2147483648)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (<= _valueType__i 10)) ; establishment of upper bounds\n(assert (>= _valueType__i 10)) ; establishment of lower bounds\n |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (= _referenceType__a_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b MaybeNull)) ; establishment categorical value |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (assert (= _referenceType__b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b MaybeNull)) ; establishment categorical value |
+checkPreconditions
+| implicitranges.cpp:15:6:15:7 | specification of f1 | (define-fun precondition_1() Bool \n\t(>  _valueType__a_qlcontracts_d  0 ) \n)\n\n\n(define-fun precondition_2() Bool \n\t(not (=  _referenceType__a MaybeNull))\n)\n\n\n(define-fun precondition_3() Bool \n\t(not (=  _referenceType__a_qlcontracts_a MaybeNull))\n)\n\n\n(define-fun precondition_4() Bool \n\t(not (=  _referenceType__a_qlcontracts_b_qlcontracts_a MaybeNull))\n)\n\n\n(define-fun precondition_5() Bool \n\t(not (=  _referenceType__a_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b MaybeNull))\n)\n\n\n(define-fun precondition_6() Bool \n\t(not (=  _referenceType__b_qlcontracts_a MaybeNull))\n)\n\n\n(define-fun precondition_7() Bool \n\t(not (=  _referenceType__b_qlcontracts_b_qlcontracts_a MaybeNull))\n)\n\n\n(define-fun precondition_8() Bool \n\t(not (=  _referenceType__b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b MaybeNull))\n)\n\n\n |
+checkDeclarations
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__a OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__a_qlcontracts_a OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__a_qlcontracts_b_qlcontracts_a OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__a_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__b_qlcontracts_a OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__b_qlcontracts_b_qlcontracts_a OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _referenceType__b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b OptionNullSort) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__a_qlcontracts_a Int) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__a_qlcontracts_b_qlcontracts_a Int) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__a_qlcontracts_d Int) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__b_qlcontracts_a Int) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__b_qlcontracts_b_qlcontracts_a Int) |
+| implicitranges.cpp:62:5:62:6 | call to f1 | implicitranges.cpp:15:6:15:7 | specification of f1 | (declare-const _valueType__i Int) |

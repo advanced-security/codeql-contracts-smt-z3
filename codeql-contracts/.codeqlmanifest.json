@@ -1,0 +1,8 @@
+{
+  "provide": [
+    "common/src/qlpack.yml",
+    "common/test/qlpack.yml",
+    "cpp/src/qlpack.yml",
+    "cpp/test/qlpack.yml"
+  ]
+}

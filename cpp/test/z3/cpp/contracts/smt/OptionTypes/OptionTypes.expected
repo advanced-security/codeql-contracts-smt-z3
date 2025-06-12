@@ -1,0 +1,18 @@
+| optiontypes.cpp:17:5:18:13 | requires a | optiontypes.cpp:18:12:18:12 | a | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:20:5:21:22 | requires ... && ... | optiontypes.cpp:21:12:21:21 | ... && ... | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:20:5:21:22 | requires ... && ... | optiontypes.cpp:21:12:21:21 | ... && ... | (declare-const _valueType__b Int) |
+| optiontypes.cpp:27:5:28:18 | requires ... > ... | optiontypes.cpp:28:12:28:17 | ... > ... | (declare-const _valueType__a Int) |
+| optiontypes.cpp:33:5:34:21 | requires ... != ... | optiontypes.cpp:34:12:34:21 | ... != ... | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:39:5:40:13 | requires a | optiontypes.cpp:40:12:40:12 | a | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:45:5:46:21 | requires ... != ... | optiontypes.cpp:46:12:46:21 | ... != ... | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:51:5:52:15 | requires a | optiontypes.cpp:52:14:52:14 | a | (declare-const _referenceType__b_qlcontracts_a OptionNullSort) |
+| optiontypes.cpp:54:5:55:23 | requires ... != ... | optiontypes.cpp:55:12:55:23 | ... != ... | (declare-const _referenceType__b_qlcontracts_a OptionNullSort) |
+| optiontypes.cpp:62:9:63:19 | requires a | optiontypes.cpp:63:18:63:18 | a | (declare-const _referenceType__a_qlcontracts_a OptionNullSort) |
+| optiontypes.cpp:65:9:66:27 | requires ... != ... | optiontypes.cpp:66:16:66:27 | ... != ... | (declare-const _referenceType__a_qlcontracts_a OptionNullSort) |
+| optiontypes.cpp:74:5:75:20 | requires ... < ... | optiontypes.cpp:75:12:75:19 | ... < ... | (declare-const _valueType__b Int) |
+| optiontypes.cpp:82:5:83:22 | requires ... > ... | optiontypes.cpp:83:12:83:21 | ... > ... | (declare-const _valueType__b_qlcontracts_a Int) |
+| optiontypes.cpp:85:5:86:23 | requires ... > ... | optiontypes.cpp:86:12:86:22 | ... > ... | (declare-const _valueType__c_qlcontracts_a Int) |
+| optiontypes.cpp:88:5:89:20 | requires ... > ... | optiontypes.cpp:89:12:89:19 | ... > ... | (declare-const _valueType__c_qlcontracts_d Int) |
+| optiontypes.cpp:91:5:92:19 | requires ... > ... | optiontypes.cpp:92:12:92:18 | ... > ... | (declare-const _valueType__b_qlcontracts_d Int) |
+| optiontypes.cpp:135:9:136:17 | requires a | optiontypes.cpp:136:16:136:16 | a | (declare-const _referenceType__a OptionNullSort) |
+| optiontypes.cpp:138:9:139:25 | requires ... != ... | optiontypes.cpp:139:16:139:25 | ... != ... | (declare-const _referenceType__a OptionNullSort) |

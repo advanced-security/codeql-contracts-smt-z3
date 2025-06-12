@@ -1,0 +1,7 @@
+name: advanced-security/z3-cpp-test
+version: 0.0.1
+dependencies:
+  advanced-security/z3-cpp: "*"
+extractor: cpp
+extensions:
+  

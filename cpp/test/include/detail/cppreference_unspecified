@@ -1,0 +1,35 @@
+/*  Copyright (C) 2019  Povilas Kanapickas <povilas@radix.lt>
+
+    This file is part of cppreference-doc
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike 3.0
+    Unported License. To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative
+    Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+    Permission is granted to copy, distribute and/or modify this document
+    under the terms of the GNU Free Documentation License, Version 1.3 or
+    any later version published by the Free Software Foundation; with no
+    Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+*/
+
+#ifndef CPPREFERENCE_DETAIL_CPPREFERENCE_UNSPECIFIED_H
+#define CPPREFERENCE_DETAIL_CPPREFERENCE_UNSPECIFIED_H
+
+// this is non-standard header
+
+namespace std {
+
+#if CPPREFERENCE_STDVER >= 2011
+using CPPREFERENCE_UNSPECIFIED_TYPE = int;
+constexpr int CPPREFERENCE_UNSPECIFIED_TYPE_VALUE = 0;
+using CPPREFERENCE_SIMPLIFIED_TYPE = int;
+#else
+typedef int CPPREFERENCE_UNSPECIFIED_TYPE;
+static const int CPPREFERENCE_UNSPECIFIED_TYPE_VALUE = 0;
+typedef int CPPREFERENCE_SIMPLIFIED_TYPE;
+#endif
+
+} // namespace std
+
+#endif // CPPREFERENCE_DETAIL_LOCALE_FWD_H

@@ -1,0 +1,8 @@
+| identifiers.cpp:17:5:18:13 | requires a | identifiers.cpp:18:12:18:12 | a | (declare-const _referenceType__a OptionNullSort) |
+| identifiers.cpp:20:5:21:16 | requires a | identifiers.cpp:21:15:21:15 | a | (declare-const _referenceType__a_qlcontracts_a OptionNullSort) |
+| identifiers.cpp:23:5:24:15 | requires a | identifiers.cpp:24:14:24:14 | a | (declare-const _referenceType__b_qlcontracts_a OptionNullSort) |
+| identifiers.cpp:26:5:27:15 | requires a | identifiers.cpp:27:14:27:14 | a | (declare-const _referenceType__b_qlcontracts_a OptionNullSort) |
+| identifiers.cpp:29:5:30:19 | requires a | identifiers.cpp:30:18:30:18 | a | (declare-const _referenceType__a_qlcontracts_b_qlcontracts_a OptionNullSort) |
+| identifiers.cpp:32:5:33:18 | requires a | identifiers.cpp:33:17:33:17 | a | (declare-const _referenceType__b_qlcontracts_b_qlcontracts_a OptionNullSort) |
+| identifiers.cpp:35:5:36:27 | requires b | identifiers.cpp:36:26:36:26 | b | (declare-const _referenceType__b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b OptionNullSort) |
+| identifiers.cpp:38:5:39:28 | requires b | identifiers.cpp:39:27:39:27 | b | (declare-const _referenceType__a_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b_qlcontracts_b OptionNullSort) |

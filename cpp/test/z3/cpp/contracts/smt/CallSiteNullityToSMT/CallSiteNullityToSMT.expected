@@ -1,0 +1,32 @@
+| callsitenullitytosmt.cpp:53:5:53:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:53:5:53:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:56:9:56:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:56:9:56:10 | call to f1 | (assert (= _referenceType__a NotNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:58:9:58:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:58:9:58:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:62:9:62:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:62:9:62:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:70:5:70:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:70:5:70:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:73:9:73:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:73:9:73:10 | call to f1 | (assert (= _referenceType__a NotNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:75:9:75:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:75:9:75:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:79:9:79:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:79:9:79:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:87:5:87:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:87:5:87:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:90:9:90:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:90:9:90:10 | call to f1 | (assert (= _referenceType__a NotNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:92:9:92:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:92:9:92:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:95:5:95:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:95:5:95:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:103:5:103:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:103:5:103:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:106:9:106:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:106:9:106:10 | call to f1 | (assert (= _referenceType__a NotNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:108:9:108:10 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:108:9:108:10 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |
+| callsitenullitytosmt.cpp:111:5:111:6 | call to f1 | (assert (<= _valueType__b 2147483647)) ; establishment of upper bounds\n(assert (>= _valueType__b -2147483648)) ; establishment of lower bounds\n |
+| callsitenullitytosmt.cpp:111:5:111:6 | call to f1 | (assert (= _referenceType__a MaybeNull)) ; establishment categorical value |

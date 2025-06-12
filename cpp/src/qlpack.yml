@@ -1,0 +1,9 @@
+name: advanced-security/z3-cpp
+description: "Support for Z3/SMT analyses that integrate with C/C++ code, for
+  instance, precondition checking of C/C++ functions via assertions, as well as
+  utilities such as generating SMT statements from C/C++ expressions."
+version: 0.0.1
+library: true
+dependencies:
+  advanced-security/z3: "*"
+  codeql/cpp-all: 2.1.1

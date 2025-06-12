@@ -1,0 +1,7 @@
+name: advanced-security/z3-test
+version: 0.0.1
+library: true
+depnedencies:
+  advanced-security/z3: "*"
+  codeql/cpp: "*"
+extractor: cpp

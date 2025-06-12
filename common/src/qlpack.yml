@@ -1,0 +1,7 @@
+name: advanced-security/z3
+description: "CodeQL plugin library providing minimal z3lib integration. Note
+  that using this library requires special installation steps. Installing this
+  qlpack does not install the z3 codeql plugin or the z3 library or the
+  required z3 java bindings. See the README for more information."
+version: 0.0.1
+library: true
