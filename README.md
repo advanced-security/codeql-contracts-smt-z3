@@ -24,7 +24,7 @@ into this project in the future.
 
 ## License
 
-This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE.txt) for the full terms.
+This project is licensed under the terms of the MIT open source license. Please refer to the [LICENSE file](./LICENSE) for the full terms.
 
 CodeQL is subject to the [GitHub CodeQL Terms & Conditions](https://securitylab.github.com/tools/codeql/license).
 
