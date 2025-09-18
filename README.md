@@ -238,6 +238,6 @@ See [SUPPORT.md](SUPPORT.md).
 This project would not be possible without the incredible hard work of the Z3 team, the CodeQL team,
 and the fantastic initial implementation of CodeQL contract validation by John Singleton ([@jsinglet](https://github.com/jsinglet)).
 
-We would also like to extend our gratitude to [Bloomberg](https://www.techatbloomberg.com/opensource) and the fantastic folks there who helped us make this project a reality.
+We would also like to extend our gratitude to Peter Martin ([@peternmartin]), Salini Mishra, Joshua Berne, and Julien Vanegue from [Bloomberg](https://www.techatbloomberg.com/opensource), and other fantastic folks there, who helped us make this project a reality.
 
 Software achievements are always built upon the work of others, in a large and hard working community, and we are grateful to be a part of it.
