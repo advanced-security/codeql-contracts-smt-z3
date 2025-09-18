@@ -18,6 +18,25 @@ The primary focus of this project is to validate a reasonable subset of C++ cont
 with assertions, and to support [C++26](https://en.cppreference.com/w/cpp/language/contracts.html)
 as these first class contracts are supported by compilers.
 
+```cpp
+void f(int x) {
+  /*@ requires @*/
+  assert(x > 0);
+}
+
+void g() {
+  f(0); // contract violation
+}
+```
+
+Contract violations are discovered through a combination of CodeQL range analysis and SMT constraint generation that is then solved by Z3.
+
+We currently support the following types of assertions:
+ - `assert` macros that have been annotated `/*@ requires @*/`.
+ - `BSLS_ASSERT` from [BDE](https://bloomberg.github.io/bde/).
+
+In the future, we hope to support C++26 contract specifiers `pre(...)` and `post(...)`.
+
 This project also serves as a useful example that may benefit other languages, and the availability
 of Z3 inside CodeQL queries may have other useful applications that may deserve to be integrated
 into this project in the future.
