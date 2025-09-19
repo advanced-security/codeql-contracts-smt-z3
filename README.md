@@ -3,6 +3,10 @@
 Queries and infrastructure to discover C++ contract violations using the Z3 SMT solver, and support
 for custom CodeQL queries that may wish use the Z3 solver API.
 
+**Note: This project relies on an experimental integration with Z3 that may be removed from CodeQL without notice.** The latest known supported CodeQL version is version 2.23.0.
+
+_This project is still experimental and mostly proof-of-concept._
+
 This repository is the home for the following CodeQL packs and plugins:
 
 - `advanced-security/z3-cpp`: A CodeQL pack for discovering possible C++ contract violations in C++
